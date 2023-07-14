@@ -29,7 +29,7 @@ const getCharacterId = async function (req, res) {
       name,
       gender,
       species,
-      origin: origin?.name,
+      origin,
       image,
       status,
     };
